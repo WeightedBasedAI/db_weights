@@ -2,6 +2,8 @@
 
 This package provides tools for calculating weights for test data based on training data using nearest neighbors and various distance measures. The implementation leverages scikit-learn, scipy, and joblib for efficient computation.
 
+https://pypi.org/project/db-weights/
+
 ## Features
 
 - Calculate weights using Nearest Neighbors
