@@ -14,7 +14,7 @@ This package provides tools for calculating weights for test data based on train
 You can install the package using `pip`:
 
 ```bash
-pip install db_weights
+pip install db-weights
 ```
 
 ## Usage

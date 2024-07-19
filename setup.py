@@ -9,7 +9,7 @@ setup(
     author="Aydin Abedinia",
     author_email="abedinia.aydin@gmail.com",
     description="Calculating db_weights for test data based on training data.",
-    long_description="Distance based weighting alg for semi-supervised learning",
+    long_description="Distance based weighting alg for semi-supervised learning. more information: https://link.springer.com/article/10.1007/s13042-024-02161-z",
     long_description_content_type="text/markdown",
     url="https://github.com/WeightedBasedAI/db_weights",
     packages=find_packages(),
