@@ -1,6 +1,6 @@
 import unittest
 import numpy as np
-from weights.weights import WeightCalculator
+from db_weights.weights import WeightCalculator
 
 
 class TestWeightCalculator(unittest.TestCase):

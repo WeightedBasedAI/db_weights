@@ -4,11 +4,11 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="weights",
+    name="db_weights",
     version="0.0.1",
     author="Aydin Abedinia",
     author_email="abedinia.aydin@gmail.com",
-    description="Calculating weights for test data based on training data.",
+    description="Calculating db_weights for test data based on training data.",
     long_description="Distance based weighting alg for semi-supervised learning. more infor: https://link.springer.com/article/10.1007/s13042-024-02161-z",
     long_description_content_type="text/markdown",
     url="https://github.com/WeightedBasedAI/weights",
