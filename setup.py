@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="db_weights",
-    version="0.0.6",
+    version="0.0.7",
     author="Aydin Abedinia",
     author_email="abedinia.aydin@gmail.com",
     description="Calculating db_weights for test data based on training data.",
@@ -14,10 +14,10 @@ setup(
     url="https://github.com/WeightedBasedAI/db_weights",
     packages=find_packages(),
     install_requires=[
-        'numpy',
-        'scikit-learn',
-        'scipy',
-        'joblib'
+        'numpy==2.0.0',
+        'scikit-learn==1.5.1',
+        'scipy==1.14.0',
+        'joblib==1.4.2',
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
