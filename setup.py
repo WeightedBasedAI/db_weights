@@ -5,13 +5,13 @@ with open("README.md", "r") as fh:
 
 setup(
     name="db_weights",
-    version="0.0.1",
+    version="0.0.3",
     author="Aydin Abedinia",
     author_email="abedinia.aydin@gmail.com",
     description="Calculating db_weights for test data based on training data.",
-    long_description="Distance based weighting alg for semi-supervised learning. more infor: https://link.springer.com/article/10.1007/s13042-024-02161-z",
+    long_description="Distance based weighting alg for semi-supervised learning",
     long_description_content_type="text/markdown",
-    url="https://github.com/WeightedBasedAI/weights",
+    url="https://github.com/WeightedBasedAI/db_weights",
     packages=find_packages(),
     install_requires=[
         'numpy',
