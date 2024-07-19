@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="db_weights",
-    version="0.0.3",
+    version="0.0.5",
     author="Aydin Abedinia",
     author_email="abedinia.aydin@gmail.com",
     description="Calculating db_weights for test data based on training data.",
