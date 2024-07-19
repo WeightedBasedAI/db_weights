@@ -17,8 +17,7 @@ setup(
         'numpy',
         'scikit-learn',
         'scipy',
-        'joblib',
-        'logging'
+        'joblib'
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
